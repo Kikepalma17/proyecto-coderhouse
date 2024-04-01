@@ -1,0 +1,81 @@
+
+body, td {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+.FontBold {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.FontNormal_6 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 6pt;
+}
+
+.FontNormal_8 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+.FontNormal_9 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 9pt;
+}
+.FontSub_9{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 9pt;
+}
+
+.FontBold_8 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.FontBold_8U {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 8pt;
+    text-decoration: underline;
+}
+
+.FontBold_12 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.FontBold_14 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.FontBold_18 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.FontBold_22 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.Logo {
+    width: 201px;
+}
+.BorderAllSides {
+    border: 1px solid;
+    color: black;
+    height: 10px;
+    border-collapse: collapse;            
+}             
