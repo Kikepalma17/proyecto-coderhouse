@@ -153,10 +153,24 @@ box-sizing: border-box;
     height: 300px;
 }
 .layout_body_title_h2{
- align-items: center;
- text-align: center;
+    align-items: center;
+    text-align: center;
 }
 
+.bnr_cotizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.button_style2, button{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
 }
 
 
