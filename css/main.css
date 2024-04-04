@@ -1,6 +1,90 @@
-@import url(./utilities/_varialbles.scss);
-@import url(./base/_reset.scss);
-@import url(./base/_typography.scss);
-@import url(./layout/_footer.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  line-height: 24px;
+}
+
+footer {
+  background-color: rgb(72, 75, 76);
+}
+
+footer {
+  color: rgb(240, 248, 255);
+  font-size: 15px;
+}
+
+.layout_footer_company_logo {
+  width: 250PX;
+}
+
+.layout_footer_company_name {
+  padding-top: 30px;
+  font-weight: bold;
+  color: rgb(240, 248, 255);
+  font-size: 19px;
+}
+
+.layout_footer_utility_colum ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.layout_footer_utility_colum ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(240, 248, 255);
+  font-size: large;
+}
+
+footer ul li a:hover {
+  color: rgb(233, 102, 20);
+}
+
+.social_media ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.social_media ul li a {
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+}
+
+@media (max-width: 896px) and (min-width: 2px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layout_footer {
+    align-content: center;
+  }
+  .layout_footer_utility_colum ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .social_media {
+    align-items: center;
+  }
+  p {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
